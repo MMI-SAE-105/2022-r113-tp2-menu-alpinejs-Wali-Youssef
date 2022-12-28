@@ -3,9 +3,34 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+    initial-scale=1.0" />
     <title>Test menu</title>
+    <script defer src="https://unpkg.com/alpinejs"></script>
   </head>
+
+<style>  
+.menu {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            background-color: #af9e9e;
+            display: grid;
+            place-content: center;
+        }
+        .header_menuBtn {
+            position: relative;
+            z-index: 10;
+        }
+          .noscroll,
+          .noscroll body {
+            overflow: hidden;
+        }
+    </style>
+
+</style>
   <body>
     <!-- https://emmet.io/ -->
     <!-- header>h1{Test de menu} -->
